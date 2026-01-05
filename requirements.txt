@@ -1,0 +1,97 @@
+# Core ML/DL Framework
+tensorflow==2.13.0
+keras==2.13.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# Image Processing
+opencv-python-headless==4.8.0.74
+pillow==10.0.0
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+plotly==5.17.0
+
+# Utilities and System
+tqdm==4.65.0
+pyyaml==6.0
+psutil==5.9.6
+
+# Development
+ipython==8.15.0
+jupyter==1.0.0
+notebook==6.5.5
+
+# Google Colab specific
+google-colab==1.0.0
+
+# Configuration Management
+python-dotenv==1.0.0
+
+# Logging and Debugging
+colorlog==6.7.0
+
+# Type Hints (Optional for development)
+typing-extensions==4.7.1
+
+ ## Explicación de las dependencias:
+
+ ### 1. **TensorFlow y Keras (2.13.0)**
+# - **Por qué:** Framework principal para deep learning y redes neuronales
+# - **Versión específica:** Para reproducibilidad y compatibilidad
+# - **Alternativa ligera:** `tensorflow-cpu` si no hay GPU
+
+ ### 2. **Procesamiento de Datos**
+# - **NumPy:** Operaciones numéricas y arrays
+# - **Pandas:** Manipulación de datos tabulares
+# - **Scikit-learn:** Métricas de evaluación ML
+
+ ### 3. **Procesamiento de Imágenes**
+# - **OpenCV:** Operaciones avanzadas de visión por computadora
+# - **Pillow:** Manipulación básica de imágenes
+
+ ### 4. **Visualización**
+# - **Matplotlib:** Gráficos 2D estáticos
+# - **Seaborn:** Estilos estadísticos avanzados
+# - **Plotly:** Gráficos interactivos
+
+# ### 5. **Utilidades del Sistema**
+# - **tqdm:** Barras de progreso
+# - **PyYAML:** Manejo de archivos de configuración
+# - **psutil:** Monitoreo del sistema
+
+ ### 6. **Desarrollo**
+# - **IPython/Jupyter:** Notebooks interactivos
+# - **Google Colab:** Para ejecución en la nube
+
+ ### 7. **Gestión de Configuración**
+# - **python-dotenv:** Variables de entorno
+
+ ### 8. **Logging**
+# - **colorlog:** Logs con colores para mejor legibilidad
+
+# ## Para crear un entorno virtual e instalar:
+
+# ```bash
+ # Crear entorno virtual
+# python -m venv venv
+
+ # Activar (Windows)
+# venv\Scripts\activate
+
+ # Activar (Linux/Mac)
+# source venv/bin/activate
+
+ # Instalar dependencias
+# pip install -r requirements.txt
+
+ # Instalar versión GPU si tienes CUDA (opcional)
+# pip install tensorflow-gpu==2.13.0
+# ```
+
+ ## Para Google Colab:
+# Estas dependencias se instalarán automáticamente en la primera celda del notebook.
