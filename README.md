@@ -35,7 +35,7 @@ C:.
 │       model.h5                 # Modelo preentrenado
 │
 ├───notebooks                     # Notebooks de desarrollo
-│       main.ipynb               # Notebook principal (local)
+│
 │
 └───src                          # Código fuente
         main.py                  # Script principal ejecutable
